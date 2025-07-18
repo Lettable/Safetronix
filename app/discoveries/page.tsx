@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react';
 import { useState, useEffect } from "react"
 import { AlertTriangle, Calendar, Globe, Search } from "lucide-react"
 import Navigation from "@/components/Navigation"
