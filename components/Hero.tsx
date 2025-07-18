@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { ResponsiveContainer, PieChart, Pie, Cell } from "recharts"
 import { Shield, TrendingUp, AlertTriangle, Globe } from "lucide-react"
+import Image from 'next/image';
 
 const mockChartData = [
   { name: "Terrorism", value: 45, color: "#ef4444" },
